@@ -10,6 +10,10 @@ Git is an essential skill in modern software development. In this Crash Course i
 
 This crash course consists of an accompanying [presentation](./crash-course-in-git.pdf) and a tutorial with a set of challenges for you to complete. You might not complete them all during the session. This repository will remain available for you to work on after the session.
 
+#### Lecture Recording
+
+If you have a York St John University account, you can access a [recording of the presentation](https://yorksj-my.sharepoint.com/:v:/g/personal/d_gundry_yorksj_ac_uk/ERUC1UGuADNNoROVGqzakJgBoOBDKAe5aOzb-tpeQ6RUCA?e=I4Bd0c&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D).
+
 ### Learning Outcomes
 1. Explain the motivation behind using version control
 2. Describe key terminology and concepts in the use of git
