@@ -14,6 +14,10 @@ This crash course consists of an accompanying [presentation](./crash-course-in-g
 
 If you have a York St John University account, you can access a [recording of the presentation](https://yorksj-my.sharepoint.com/:v:/g/personal/d_gundry_yorksj_ac_uk/ERUC1UGuADNNoROVGqzakJgBoOBDKAe5aOzb-tpeQ6RUCA?e=I4Bd0c&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D).
 
+#### York St John CS GitLab
+
+At York St John we host our own gitlab server at [https://git.ysjcs.net:8888](https://git.ysjcs.net:8888). You can sign in under the LDAP option, using your username (john.smith) and your original Computing/Linux password. Note, changing your password on Linux does not change it in GitLab so your gitlab password will be the password you were sent at the start of first year. If you are unable to access our GitLab server, contact the technicians.
+
 ### Learning Outcomes
 1. Explain the motivation behind using version control
 2. Describe key terminology and concepts in the use of git
@@ -31,6 +35,7 @@ If you have a York St John University account, you can access a [recording of th
 
 * [Frequently Asked Questions](./faq.md)
 * [Summary of Important Commands](./summary-of-commands.md)
+* [Git in VS Code](./git-in-vsc.md)
 * [Quiz](./quiz.md)
 
 ### Helpful Links
