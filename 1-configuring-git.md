@@ -2,8 +2,9 @@
 
 On University machines, Git is available through [AppsAnywhere](https://appsanywhere.yorksj.ac.uk/app/bcf31522-552e-11ed-b5a1-005056ae5b42). After it is installed, it should be available through the command line as the `git` command (you may need to restart your terminal to load the updated PATH). You will also find Git GUI and Git Bash from your Start menu. For most of these instructions you will be using Git GUI or Git Bash.
 
-On your personal machine, you can find instructions for installing Git on the git website (<https://git-scm.com/>). If you use Linux, Git is probably in your distribution's repository. If you prefer, you can also install the Github Desktop App.
-(<https://desktop.github.com/download/>)
+![Start menu options for Git on a University machine](./media/git-start-menu.png)
+
+You can find instructions for installing Git on your personal machine on the Git website (<https://git-scm.com/>). If you use Linux, Git is probably in your distribution's repository. If you prefer, you can also install the Github Desktop App (<https://desktop.github.com/download/>).
 
 # Authenticating with GitHub
 
@@ -13,17 +14,23 @@ Performing certain actions on a git server requires authentication. For example,
 
     git@github.com:username/repo.git
 
+**On a University machine, your first choice should be HTTPS. You can then usually authenticate using your browser via OAuth and no other configuration is required.**
+
 Typically, if you connect to a git server over HTTPS, it will request your username and password in the terminal. However, GitHub doesn't allow authentication with username and password. If you choose this method you will need to use OAuth or a Personal Access Token.
 
 SSH authentication is convenient when you do not want to be asked to re-enter your username and password frequently. An SSH key is stored on your machine and accessed when required. If you want to use this method, you will need to create an SSH key on your machine and register it on GitHub.
 
-## OAuth Authentication using GitHub Desktop
+## OAuth Authentication using VS Code
 
-GitHub Desktop and many other Git clients (including VS Code) use OAuth to authenticate you to hosts (such as GitHub) that support it. If you are using one of these apps, a box should pop up when authentication is required asking for you to log in.
+GitHub Desktop and many other Git clients (including VS Code) use OAuth to authenticate you to hosts (such as GitHub) that support it if you are connecting over HTTPS. If you are using one of these apps, a box should pop up when authentication is required asking for you to log in.
+
+**This should be your first choice on a University machine as it is by far the easiest.** If you are using this authentication method, you can continue to [the next section](./2-creating-a-repo.md)
+
+# Other Authentication Methods
 
 ## Personal Access Token
 
-If you are using the command line, the simplest (but not necessarily the best) alternative is to use a Personal Access Token. A personal access token allows us to authenticate with GitHub over the command line. This is basically a password, so keep it safe.
+If you are using the command line, the simplest (but not necessarily the best) alternative if for some reason OAuth is not available is to use a Personal Access Token. A personal access token allows us to authenticate with GitHub over the command line. This is basically a password, so keep it safe.
 
 You create a personal access token through GitHub. Go to `GitHub Settings /	Developer Settings`.
 
